@@ -117,8 +117,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    right: 50%; /* 自适应屏幕50%的位置 */
-    transform: translateX(50%);
+    left: 0; /* 移动到左侧边缘 */
     top: 30%; /* 与客服头像垂直对齐 */
 }
 
