@@ -117,15 +117,17 @@ button:hover {
     flex-direction: column;
     align-items: center;
     position: fixed;
-    left:5px; /* 移动到左侧边缘 */
+    left: 5px; /* 移动到左侧边缘，稍微偏离5px */
     top: 40%; /* 与客服头像垂直对齐 */
 }
 
 .icons img {
+    width: 200px; /* 设置图标宽度为200px */
+    height: 200px; /* 设置图标高度为200px */
     margin: 15px 0; /* 图片间隔30px */
     transition: transform 0.3s ease; /* 添加悬停效果的过渡 */
 }
 
 .icons img:hover {
-    transform: scale(1.1); /* 鼠标悬停时图标放大 */
+    transform: scale(1.2); /* 鼠标悬停时图标放大20% */
 }
