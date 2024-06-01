@@ -123,7 +123,7 @@ button:hover {
 
 .icons img {
     margin: 15px 0; /* 图片间隔30px */
-    transition: transform 0.3s ease; /* 添加悬停效果的过渡 */
+   
 }
 
 .icons img:hover {
